@@ -1,0 +1,10 @@
+version: '1.0'
+
+services:
+  itinerary-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

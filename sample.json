@@ -1,0 +1,278 @@
+[
+    {
+        "Name": "John Doe",
+        "DepartureCity": "New York",
+        "DestinationCity": "Paris",
+        "DepartureDate": "15-08-2024",
+        "ReturnDate": "15-08-2024",
+        "Travelers": 2,
+        "Flights": [
+            {
+                "DepartureDate": "2024-08-15",
+                "FlightName": "Air India",
+                "From": "JFK",
+                "To": "CDG",
+                "flightPrice": 5000
+            },
+            {
+                "DepartureDate": "2024-08-15",
+                "FlightName": "Air bus",
+                "From": "JFK",
+                "To": "CDG",
+                "flightPrice": 5800
+            }
+        ],
+        "Bookings": [
+            {
+                "City": "Paris",
+                "CheckIn": "2024-08-15",
+                "CheckOut": "2024-08-20",
+                "Nights": 5,
+                "HotelName": "Hôtel Le Six",
+                "HotelPrice": 5500
+            }
+        ],
+        "Payments": [
+            {
+                "Label": "Total Amount"
+            },
+            {
+                "Label": "TCS"
+            }
+        ],
+        "Installments": [
+            {
+                "Installment": "Installment 1",
+                "Amount": "4500",
+                "DueDate": "2024-07-01"
+            },
+            {
+                "Installment": "Installment 2",
+                "Amount": "6700",
+                "DueDate": "2024-08-01"
+            },
+            {
+                "Installment": "pending",
+                "Amount": "",
+                "DueDate": "2024-08-01"
+            }
+        ],
+        "PaymentDetails": [
+            {
+                "visa": "Tourist",
+                "validity": "30 days",
+                "processingDate": "14/06/2025"
+            }
+        ],
+        "Activity": [
+            {
+                "City": "Paris",
+                "Activity": "Visit Eiffel Tower",
+                "Date": "2025-08-10",
+                "Time": "10:00 AM",
+                "TimeRequired": "2 hours",
+                "ActivityCost": 20
+            },
+            {
+                "City": "Paris",
+                "Activity": "potato fries",
+                "Date": "2025-08-10",
+                "Time": "1:00 PM",
+                "TimeRequired": "2 hours",
+                "ActivityCost": 20
+            },
+            {
+                "City": "Paris",
+                "Activity": "Night life",
+                "Date": "2025-08-10",
+                "Time": "9:00 PM",
+                "TimeRequired": "2 hours",
+                "ActivityCost": 20
+            }
+        ]
+    },
+    {
+        "Name": "Alice Smith",
+        "DepartureCity": "Los Angeles",
+        "DestinationCity": "Tokyo",
+        "DepartureDate": "2024-10-10",
+        "ReturnDate": "2024-10-14",
+        "Travelers": 1,
+        "Flights": [
+            {
+                "DepartureDate": "2024-10-10",
+                "FlightName": "Japan Airlines",
+                "From": "LAX",
+                "To": "HND",
+                "flightPrice": 1200
+            }
+        ],
+        "Bookings": [
+            {
+                "City": "Tokyo",
+                "CheckIn": "2024-10-10",
+                "CheckOut": "2024-10-14",
+                "Nights": 4,
+                "HotelName": "Shinjuku Grand Hotel",
+                "HotelPrice": 800
+            }
+        ],
+        "Payments": [
+            {
+                "Label": "Total Amount"
+            }
+        ],
+        "Installments": [],
+        "PaymentDetails": [
+            {
+                "visa": "Tourist",
+                "validity": "15 days",
+                "processingDate": "2024-08-01"
+            }
+        ],
+        "Activity": [
+            {
+                "City": "Tokyo",
+                "Activity": "Tokyo Skytree Visit",
+                "Date": "2024-10-11",
+                "Time": "11:00 AM",
+                "TimeRequired": "3 hours",
+                "ActivityCost": 30
+            }
+        ]
+    },
+    {
+        "Name": "Raj Verma",
+        "DepartureCity": "Delhi",
+        "DestinationCity": "London",
+        "DepartureDate": "2025-06-01",
+        "ReturnDate": "2025-06-15",
+        "Travelers": 4,
+        "Flights": [
+            {
+                "DepartureDate": "2025-06-01",
+                "FlightName": "British Airways",
+                "From": "DEL",
+                "To": "LHR",
+                "flightPrice": 3000
+            },
+            {
+                "DepartureDate": "2025-06-15",
+                "FlightName": "British Airways",
+                "From": "LHR",
+                "To": "DEL",
+                "flightPrice": 3000
+            }
+        ],
+        "Bookings": [
+            {
+                "City": "London",
+                "CheckIn": "2025-06-01",
+                "CheckOut": "2025-06-08",
+                "Nights": 7,
+                "HotelName": "The Royal London",
+                "HotelPrice": 7000
+            },
+            {
+                "City": "Edinburgh",
+                "CheckIn": "2025-06-08",
+                "CheckOut": "2025-06-15",
+                "Nights": 7,
+                "HotelName": "Edinburgh Grand",
+                "HotelPrice": 6300
+            }
+        ],
+        "Payments": [
+            {
+                "Label": "Total Amount"
+            },
+            {
+                "Label": "Discount"
+            }
+        ],
+        "Installments": [
+            {
+                "Installment": "First",
+                "Amount": "5000",
+                "DueDate": "2025-04-01"
+            },
+            {
+                "Installment": "Second",
+                "Amount": "6000",
+                "DueDate": "2025-05-01"
+            }
+        ],
+        "PaymentDetails": [
+            {
+                "visa": "Tourist",
+                "validity": "90 days",
+                "processingDate": "2025-03-20"
+            }
+        ],
+        "Activity": [
+            {
+                "City": "London",
+                "Activity": "London Eye",
+                "Date": "2025-06-02",
+                "Time": "10:00 AM",
+                "TimeRequired": "2 hours",
+                "ActivityCost": 50
+            },
+            {
+                "City": "Edinburgh",
+                "Activity": "Castle Tour",
+                "Date": "2025-06-10",
+                "Time": "1:00 PM",
+                "TimeRequired": "3 hours",
+                "ActivityCost": 60
+            }
+        ]
+    },
+    {
+        "Name": "Michael Brown",
+        "DepartureCity": "San Francisco",
+        "DestinationCity": "Berlin",
+        "DepartureDate": "2025-03-05",
+        "ReturnDate": "2025-03-10",
+        "Travelers": 1,
+        "Flights": [
+            {
+                "DepartureDate": "2025-03-05",
+                "FlightName": "Lufthansa",
+                "From": "SFO",
+                "To": "BER",
+                "flightPrice": 2500
+            }
+        ],
+        "Bookings": [
+            {
+                "City": "Berlin",
+                "CheckIn": "2025-03-05",
+                "CheckOut": "2025-03-10",
+                "Nights": 5,
+                "HotelName": "Berlin Business Hotel",
+                "HotelPrice": 900
+            }
+        ],
+        "Payments": [
+            {
+                "Label": "Total Amount"
+            }
+        ],
+        "Installments": [
+            {
+                "Installment": "Initial Deposit",
+                "Amount": "1000",
+                "DueDate": "2025-02-01"
+            }
+        ],
+        "PaymentDetails": [
+            {
+                "visa": "Business",
+                "validity": "60 days",
+                "processingDate": "2025-01-15"
+            }
+        ],
+        "Activity": []
+    }
+]

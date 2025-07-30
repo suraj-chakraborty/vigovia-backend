@@ -1,0 +1,17 @@
+# .air.toml
+root = "."
+tmp_dir = "tmp"
+
+[build]
+  cmd = "go build -o ./tmp/server.exe"
+  bin = "tmp/server.exe"
+  include_ext = ["go"]
+  exclude_dir = ["assets", "pdfs", "vendor"]
+  exclude_file = ["*_test.go"]
+  delay = 1000
+
+[log]
+  time = true
+
+[color]
+  main = "yellow"
